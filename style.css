@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(154, 192, 225);
+}
+.container{
+ box-sizing: border-box;
+}
+.container nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.container nav h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.container nav span{
+    display: flex;
+    gap: 15px;
+    color: rgb(62, 106, 110);
+    font-size: 20px;
+}
+.container nav span i{
+    cursor: pointer;
+}
+.container .form{
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    width: 80%;
+}
+.container .form input{
+    width: 79%;
+    height: 45px;
+    padding-left: 100px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    /* text-align: center; */
+}
+.container .form i{
+    position: absolute;
+    left: 5%;
+    top: 30px;
+    color: rgb(25, 96, 171);
+    font-size: 20px;
+}
+.container .form button{
+    cursor: pointer;
+    color: white;
+    width: 20%;
+    background-color: rgb(17, 186, 166);
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+.main{
+    box-sizing: border-box;
+    padding: 30px 30px 30px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    background-color: aliceblue;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.main img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.main .main-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main .main-info span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.main .main-info span h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: cadetblue;
+}
+.main .main-info span p{
+    color: rgb(62, 106, 110);
+}
+.main .main-info .githubUserName a{
+    color: rgb(107, 107, 235);
+    font-weight: 700;
+    text-decoration: none;
+}
+.main .main-info .userbio{
+    color:rgb(62, 106, 110);
+    font-weight: 700;
+}
+.main .main-info .menu{
+    background-color: rgb(65, 129, 246);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: aliceblue;
+}
+.main .main-info .menu p{
+   color:darkslategrey;
+   font-weight: 700;
+}
+.main .main-info footer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main .main-info footer .footer-first{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main .main-info footer .footer-second{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main .main-info footer .footer-three{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.main .main-info footer .footer-four{
+    margin-left: 20px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
